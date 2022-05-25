@@ -1,8 +1,14 @@
 SPIELFELD_BREITE = 40
 SPIELFELD_HOEHE = 25
 
-SPIELER_X = 5
-SPIELER_Y = 5
+PLAYER_X = 5  # P
+PLAYER_Y = 5
+SNAKE_X = 10  # S
+SNAKE_Y = 10
+DOOR_X = 15  # D
+DOOR_Y = 15
+KEY_X = 20  # K
+KEY_Y = 20
 
 for y in range(SPIELFELD_HOEHE):
     for x in range(SPIELFELD_BREITE):
